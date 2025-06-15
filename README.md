@@ -1,69 +1,45 @@
-# Welcome to your Lovable project
+# Calivox AI
 
-## Project info
+This is a web application built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/5ee0f407-e9cb-4ca8-a6cc-0f83bae36186
+## Project Setup
 
-## How can I edit this code?
+To set up and run this project locally, follow these steps:
 
-There are several ways of editing your application.
+### 1. Clone the repository
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ee0f407-e9cb-4ca8-a6cc-0f83bae36186) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+If you haven't already cloned the repository, do so using:
+```bash
+git clone https://github.com/Uttkarsh700/Calivoxai.git
+```
+Navigate into the project directory:
+```bash
+cd Calivoxai
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install Dependencies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Install the necessary Node.js packages:
+```bash
+npm install
+```
 
-**Use GitHub Codespaces**
+### 3. Run the Development Server
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Start the development server with hot-reloading:
+```bash
+npm run dev
+```
+The application will typically be available at `http://localhost:8080/`.
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with .
+*   **Vite**: A fast build tool for modern web projects.
+*   **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+*   **React**: A JavaScript library for building user interfaces.
+*   **shadcn-ui**: A collection of reusable components built with Radix UI and Tailwind CSS.
+*   **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5ee0f407-e9cb-4ca8-a6cc-0f83bae36186) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project can be deployed using various static hosting services.
